@@ -22,6 +22,9 @@ client.on('messageCreate', async message => {
 	if (c === 'test') {
 		message.reply('test message!!!!!!!!!!!!!!!!!!!!!!!!!!!!\n\\(^o^)/')
 	}
+	if (c === 'test2') {
+		message.channel.send('test!!!!!!!!!!!!!!!!!!!!!!!\n\\(^o^)/')
+	}
 })
 
 client.login(process.env.token)
